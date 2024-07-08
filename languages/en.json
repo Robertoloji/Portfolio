@@ -13,7 +13,7 @@
     },
     "projects": {
         "first-project-title":"To Do List",
-        "first-project-description": "A task list is a simple yet useful web application that allows users to manage their tasks. The application is built with Laravel, a database, and Bootstrap.",
+        "first-project-description": "To-do list is a simple yet useful web application that allows users to manage their tasks. The application is built with Laravel, a database, and Bootstrap.",
         "second-project-title": "Weather Application",
         "second-project-description": "Allows users to see the weather anywhere in the world. Provides current meteorological data. Displays temperature, humidity, and wind. Helps plan activities and make decisions in adverse weather conditions."
     }

@@ -13,7 +13,7 @@
     },
     "projects": {
             "first-project-title":"Lista de Tareas",
-            "first-project-description": "Una lista de tareas es una aplicación web simple pero útil que permite a los usuarios administrar sus tareas. La aplicación está construida con Laravel, una base de datos y Bootstrap.",
+            "first-project-description": "Lista de tareas es una aplicación web simple pero útil que permite a los usuarios administrar sus tareas. La aplicación está construida con Laravel, una base de datos y Bootstrap.",
             "second-project-title": "Aplicación del Tiempo",
             "second-project-description": "Permite a los usuarios ver el tiempo en cualquier parte del mundo. Proporciona datos meteorológicos actuales. Muestra temperatura, humedad y viento. Ayuda a planificar actividades y tomar decisiones en condiciones meteorológicas adversas."
         }
