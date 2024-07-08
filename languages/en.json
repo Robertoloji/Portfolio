@@ -1,18 +1,20 @@
 {
-    "profile":{
-        "rol":"Full stack developer",
-        "description": "Junior programmer with experience in PHP, JavaScript, HTML, CSS, Java, and Python. I have worked with frameworks such as Laravel and managed databases with MySQL. My Full Stack profile allows me to develop both frontend and backend, adapting to agile methodologies like Scrum and Kanban. I am always looking to improve my skills and learn new technologies to become a better professional. My goal is to continue improving in my passion for developing robust and efficient web applications, optimizing projects with good practices and agile methodologies."
+    "profile": {
+        "role": "Full Stack Developer",
+        "description": "Junior programmer with experience in PHP, JavaScript, HTML, CSS, Java, and Python. I have worked with frameworks like Laravel and manage databases with MySQL. My Full Stack profile allows me to develop both frontend and backend, adapting to agile methodologies such as Scrum and Kanban. I am always looking to improve my skills and learn new technologies to become a better professional. My goal is to continue improving in my passion for developing robust and efficient web applications, optimizing projects with best practices and agile methodologies."
     },
-    "skills":{
-        "time":"Years of experience"
+    "skills": {
+        "time": "Years of experience"
     },
     "experience": {
         "first-job-title": "Back-end Developer",
         "first-job-dates": "March 2024 - June 2024",
-        "first-job-description": "I worked with PHP and Laravel, using Kanban. I coordinated a team, managing both frontend and backend. I was in charge of backend development and testing with Pest in TDD.<br /> This experience improved my technical and leadership skills, and I delved deeper into agile good practices."
+        "first-job-description": "Worked with PHP and Laravel, using Kanban. Coordinated a team, handling both frontend and backend. Responsible for backend development and testing with Pest in TDD. This experience improved my technical and leadership skills, and deepened my knowledge in agile best practices."
     },
-    "projects":{
+    "projects": {
         "first-project-title":"To Do List",
-        "first-project-description":"A to-do list is a simple but useful web application that allows users to manage their tasks. The application was created with Laravel, a database, and Bootstrap"
+        "first-project-description": "A task list is a simple yet useful web application that allows users to manage their tasks. The application is built with Laravel, a database, and Bootstrap.",
+        "second-project-title": "Weather Application",
+        "second-project-description": "Allows users to see the weather anywhere in the world. Provides current meteorological data. Displays temperature, humidity, and wind. Helps plan activities and make decisions in adverse weather conditions."
     }
 }

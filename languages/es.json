@@ -1,18 +1,20 @@
 {
-    "profile":{
-        "rol":"Desarrollador Full Stack",
-        "description": "Programador junior con experiencia en PHP, JavaScript, HTML, CSS, Java y Python. He trabajado con frameworks\ncomo Laravel y gestiono bases de datos con MySQL. Mi perfil Full Stack me permite desarrollar tanto frontend\ncomo backend, adaptándome a metodologías ágiles como Scrum y Kanban. Siempre estoy buscando mejorar mis\nhabilidades y aprender nuevas tecnologías para ser un mejor profesional. Mi objetivo es seguir mejorando en\nmi pasión por desarrollar aplicaciones web robustas y eficientes, optimizando proyectos con buenas prácticas\ny metodologías ágiles."
+    "profile": {
+        "role": "Desarrollador Full Stack",
+        "description": "Programador junior con experiencia en PHP, JavaScript, HTML, CSS, Java y Python. He trabajado con frameworks como Laravel y gestiono bases de datos con MySQL. Mi perfil Full Stack me permite desarrollar tanto frontend como backend, adaptándome a metodologías ágiles como Scrum y Kanban. Siempre estoy buscando mejorar mis habilidades y aprender nuevas tecnologías para ser un mejor profesional. Mi objetivo es seguir mejorando en mi pasión por desarrollar aplicaciones web robustas y eficientes, optimizando proyectos con buenas prácticas y metodologías ágiles."
     },
-    "skills":{
-        "time":"Años de experiencia"
+    "skills": {
+        "time": "Años de experiencia"
     },
     "experience": {
         "first-job-title": "Desarrollador Back-end",
         "first-job-dates": "Marzo 2024 - Junio 2024",
-        "first-job-description": "Trabajé con PHP y Laravel, utilizando Kanban. Coordinaba un equipo, manejando tanto frontend como backend. Me encargaba del desarrollo backend y testing con Pest en TDD.<br /> Esta experiencia mejoró mis habilidades técnicas y de liderazgo, y profundicé en buenas prácticas ágiles."
+        "first-job-description": "Trabajé con PHP y Laravel, utilizando Kanban. Coordinaba un equipo, manejando tanto frontend como backend. Me encargaba del desarrollo backend y testing con Pest en TDD. Esta experiencia mejoró mis habilidades técnicas y de liderazgo, y profundicé en buenas prácticas ágiles."
     },
-    "projects":{
-        "first-project-title":"To Do List",
-        "first-project-description":"lista de tareas es una aplicación web simple pero útil que permite a los usuarios administrar sus tareas. La aplicación se ha creado con Laravel, una base de datos y Bootstrap"
-    }
+    "projects": {
+            "first-project-title":"Lista de Tareas",
+            "first-project-description": "Una lista de tareas es una aplicación web simple pero útil que permite a los usuarios administrar sus tareas. La aplicación está construida con Laravel, una base de datos y Bootstrap.",
+            "second-project-title": "Aplicación del Tiempo",
+            "second-project-description": "Permite a los usuarios ver el tiempo en cualquier parte del mundo. Proporciona datos meteorológicos actuales. Muestra temperatura, humedad y viento. Ayuda a planificar actividades y tomar decisiones en condiciones meteorológicas adversas."
+        }
 }
