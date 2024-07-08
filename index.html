@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/9c83c95245.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<body class="dark">
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+        <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+      </div>
+    </div>
+
+    <div id="flags" class="flags">
+      <div class="flags__item" data-language="es">
+        <img src="assets/icons/es.svg" alt="">
+      </div>
+      <div class="flags__item" data-language="en">
+        <img src="assets/icons/gb.svg" alt="" class="flags__img">
+      </div>
+    </div>
+    <div class="colors" id="toggle-colors">
+      <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+      <div data-color="hsl(124, 84%, 56%)" class="colors__item colors__item--green"></div>
+      <div data-color="hsl(268, 84%, 56%)" class="colors__item colors__item--purple"></div>
+      <div data-color="hsl(31, 82%, 52%)" class="colors__item colors__item--orange"></div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="column column--left">
+      <!-- PROFILE CARD -->
+      <article class="card card--profile">
+        <div class="card__image-container">
+          <img src="assets/images/profile.png" alt="" />
+        </div>
+        <div class="card__header">
+          <h2 class="card__title">Roberto López</h2>
+          <p class="card__subtitle" data-section="profile" data-value="rol">Desarrollador Full Stack</p>
+        </div>
+        <div class="card__body">
+          <div class="card__link">
+            <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/robertoloij/" target="_blank" class="card__link">LinkedIn</a><br>
+            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/Robertoloji" target="_blank" class="card__link">GitHub</a><br>
+            <i class="fa-regular fa-envelope"></i>
+            <a href="mailto:robertoloji@outlook.es" target="_blank" class="card__link">robertoloji@outlook.es</a><br>
+            <i class="fa-brands fa-whatsapp"></i>
+            <a href="https://wa.me/34618150019" target="_blank" class="card__link">+34 618150019</a><br>
+          </div>
+          <p class="card__text" data-section="profile" data-value="description">
+            Programador junior con experiencia en PHP, JavaScript, HTML, CSS, Java y Python.He trabajado con frameworks
+            como Laravel y gestiono bases de datos con MySQL. Mi perfil Full Stack me permite desarrollar tanto frontend
+            como backend, adaptándome a metodologías ágiles como Scrum y Kanban. Siempre estoy buscando mejorar mis
+            habilidades y aprender nuevas tecnologías para ser un mejor profesional. Mi objetivo es seguir mejorando en
+            mi pasión por desarrollar aplicaciones web robustas y eficientes, optimizando proyectos con buenas prácticas
+            y metodologías ágiles.
+          </p>
+        </div>
+        </div>
+      </article>
+      <article class="card card--experience">
+        <h2 class="card__title">Experiencia</h2>
+        <div class="experience">
+          <img src="assets/images/logo.png" alt="logo" class="experience__image">
+          <div class="experience__info">
+            <p class="experience__time" data-section="experience" data-value="first-job-dates">
+              Mar 2024 - Jun 2024
+            </p>
+            <h3 class="experience__job" data-section="experience" data-value="first-job-title">Desarrollador Back-end
+            </h3>
+            <p class="experience__description" data-section="experience" data-value="first-job-description">
+              Trabajé con PHP y Laravel, utilizando Kanban. Coordinaba un equipo, manejando tanto frontend como backend.
+              Me encargaba del desarrollo backend y testing con Pest en TDD.<br /> Esta experiencia mejoró mis
+              habilidades
+              técnicas y de liderazgo, y profundicé en buenas prácticas ágiles.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="column column--right">
+      <article class="card">
+        <h2 class="card__title">Front End</h2>
+        <small data-section="skills" data-value="time">Años de experiencia</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">2</span>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">HTML</p>
+            <div class="skills__bar skills__bar--50"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">CSS</p>
+            <div class="skills__bar skills__bar--50"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">JavaScript</p>
+            <div class="skills__bar skills__bar--50"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <h2 class="card__title">Back End</h2>
+        <small data-section="skills" data-value="time">Años de experiencia</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">2</span>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">PHP</p>
+            <div class="skills__bar skills__bar--60"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">SQL</p>
+            <div class="skills__bar skills__bar--50"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Phyton</p>
+            <div class="skills__bar skills__bar--40"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <h2 class="card__title">Frameworks</h2>
+        <small data-section="skills" data-value="time">Años de experiencia</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">2</span>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Laravel</p>
+            <div class="skills__bar skills__bar--40"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Angular</p>
+            <div class="skills__bar skills__bar--30"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/project.png" alt="Landing page" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#PHP</span>
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#Laravel</span>
+            <span class="project__tag">#Tailwind</span>
+          </div>
+          <h2 class="cart__title" data-section="projects" data-value="first-project-title">Lista de tareas</h2>
+          <p class="card__text" data-section="projects" data-value="first-project-description">Lista de tareas es una
+            aplicación web simple pero útil que permite a los usuarios
+            administrar sus tareas. La aplicación se ha creado con Laravel, una base de datos y Bootstrap.
+          </p>
+          <div class="buttons">
+            <a href="https://github.com/Robertoloji/ToDoList" class="button button--ghost">Code</a>
+          </div>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/project2.png" alt="Landing page" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+          </div>
+          <h2 class="cart__title" data-section="projects" data-value="first-project-title">Aplicacion del tiempo</h2>
+          <p class="card__text" data-section="projects" data-value="first-project-description">Una aplicación del tiempo
+            que permite a los usuarios ver el tiempo en cualquier parte del mundo.
+            Proporciona datos meteorológicos actuales. Muestra temperatura, humedad, viento.
+            actividades y tomar decisiones ante fenómenos adversos.
+          </p>
+          <div class="buttons">
+            <a href="https://tiempo-ochre.vercel.app/" class="button button--primary">Demo</a>
+            <a href="https://github.com/Robertoloji/tiempo" class="button button--ghost">Code</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
