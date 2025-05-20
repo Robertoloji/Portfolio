@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://kit.fontawesome.com/9c83c95245.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon" />
   <title>Portfolio</title>
 </head>
 
@@ -14,17 +15,17 @@
   <header class="header">
     <div class="switches">
       <div id="toggle-theme" class="toggle-theme">
-        <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+        <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon" />
         <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
       </div>
     </div>
 
     <div id="flags" class="flags">
       <div class="flags__item" data-language="es">
-        <img src="assets/icons/es.svg" alt="">
+        <img src="assets/icons/es.svg" alt="Bandera España" />
       </div>
       <div class="flags__item" data-language="en">
-        <img src="assets/icons/gb.svg" alt="" class="flags__img">
+        <img src="assets/icons/gb.svg" alt="Bandera Reino Unido" class="flags__img" />
       </div>
     </div>
     <div class="colors" id="toggle-colors">
@@ -39,7 +40,7 @@
       <!-- PROFILE CARD -->
       <article class="card card--profile">
         <div class="card__image-container">
-          <img src="assets/images/profile.png" alt="" />
+          <img src="assets/images/profile.png" alt="Foto de Roberto López" />
         </div>
         <div class="card__header">
           <h2 class="card__title">Roberto López</h2>
@@ -48,18 +49,23 @@
         <div class="card__body">
           <div class="card__link">
             <i class="fa-brands fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/robertoloij/" target="_blank" class="card__link">LinkedIn</a><br>
+            <a href="https://www.linkedin.com/in/robertoloij/" target="_blank" rel="noopener noreferrer"
+              aria-label="LinkedIn de Roberto López" class="card__link">LinkedIn</a><br />
             <i class="fa-brands fa-github"></i>
-            <a href="https://github.com/Robertoloji" target="_blank" class="card__link">GitHub</a><br>
+            <a href="https://github.com/Robertoloji" target="_blank" rel="noopener noreferrer"
+              aria-label="GitHub de Roberto López" class="card__link">GitHub</a><br />
             <i class="fa-solid fa-file"></i>
-            <a href="assets/CV/Roberto López Jiménez.pdf" target="_blank" class="card__link">Curriculum</a><br>
+            <a href="assets/CV/Roberto López Jiménez.pdf" target="_blank" rel="noopener noreferrer"
+              aria-label="Curriculum Vitae de Roberto López" class="card__link">Curriculum</a><br />
             <i class="fa-regular fa-envelope"></i>
-            <a href="mailto:robertoloji@outlook.es" target="_blank" class="card__link">robertoloji@outlook.es</a><br>
+            <a href="mailto:robertoloji@outlook.es" aria-label="Correo electrónico de Roberto López"
+              class="card__link">robertoloji@outlook.es</a><br />
             <i class="fa-brands fa-whatsapp"></i>
-            <a href="https://wa.me/34618150019" target="_blank" class="card__link">+34 618150019</a><br>
+            <a href="https://wa.me/34618150019" target="_blank" rel="noopener noreferrer"
+              aria-label="WhatsApp de Roberto López" class="card__link">+34 618150019</a><br />
           </div>
           <p class="card__text" data-section="profile" data-value="description">
-            Programador junior con experiencia en PHP, JavaScript, HTML, CSS, Java y Python.He trabajado con frameworks
+            Programador junior con experiencia en PHP, JavaScript, HTML, CSS, Java y Python. He trabajado con frameworks
             como Laravel y gestiono bases de datos con MySQL. Mi perfil Full Stack me permite desarrollar tanto frontend
             como backend, adaptándome a metodologías ágiles como Scrum y Kanban. Siempre estoy buscando mejorar mis
             habilidades y aprender nuevas tecnologías para ser un mejor profesional. Mi objetivo es seguir mejorando en
@@ -67,12 +73,11 @@
             y metodologías ágiles.
           </p>
         </div>
-        </div>
       </article>
       <article class="card card--experience">
         <h2 class="card__title">Experiencia</h2>
         <div class="experience">
-          <img src="assets/images/logo.png" alt="logo" class="experience__image">
+          <img src="assets/images/logo.png" alt="Logo empresa" class="experience__image" />
           <div class="experience__info">
             <p class="experience__time" data-section="experience" data-value="first-job-dates">
               Mar 2024 - Jun 2024
@@ -81,9 +86,8 @@
             </h3>
             <p class="experience__description" data-section="experience" data-value="first-job-description">
               Trabajé con PHP y Laravel, utilizando Kanban. Coordinaba un equipo, manejando tanto frontend como backend.
-              Me encargaba del desarrollo backend y testing con Pest en TDD.<br /> Esta experiencia mejoró mis
-              habilidades
-              técnicas y de liderazgo, y profundicé en buenas prácticas ágiles.
+              Me encargaba del desarrollo backend y testing con Pest en TDD.<br />
+              Esta experiencia mejoró mis habilidades técnicas y de liderazgo, y profundicé en buenas prácticas ágiles.
             </p>
           </div>
         </div>
@@ -129,7 +133,7 @@
             <div class="skills__bar skills__bar--50"></div>
           </div>
           <div class="skills__item">
-            <p class="skills__tech">Phyton</p>
+            <p class="skills__tech">Python</p>
             <div class="skills__bar skills__bar--40"></div>
           </div>
         </div>
@@ -154,7 +158,7 @@
       </article>
       <article class="card card--project">
         <div class="card__image-container">
-          <img src="assets/images/project.png" alt="Landing page" class="card__image">
+          <img src="assets/images/project.png" alt="Proyecto Lista de tareas" class="card__image" />
         </div>
         <div class="project">
           <div class="project__tags">
@@ -163,20 +167,22 @@
             <span class="project__tag">#Laravel</span>
             <span class="project__tag">#Tailwind</span>
           </div>
-          <h2 class="cart__title" data-section="projects" data-value="first-project-title">Lista de tareas</h2>
-          <p class="card__text" data-section="projects" data-value="first-project-description">Lista de tareas es una
-            aplicación web simple pero útil que permite a los usuarios administrar sus tareas. La aplicación está
-            construida con Laravel, una base de datos y Bootstrap.
+          <h2 class="card__title" data-section="projects" data-value="first-project-title">Lista de tareas</h2>
+          <p class="card__text" data-section="projects" data-value="first-project-description">
+            Lista de tareas es una aplicación web simple pero útil que permite a los usuarios administrar sus tareas. La
+            aplicación está construida con Laravel, una base de datos y Bootstrap.
           </p>
           <div class="buttons">
-            <a href="https://portfolio-eight-gray-20.vercel.app/" target="_blank" class="button button--primary">Demo</a>
-            <a href="https://github.com/Robertoloji/portfolio"  target="_blank"class="button button--ghost">Code</a>
+            <a href="https://portfolio-eight-gray-20.vercel.app/" target="_blank" rel="noopener noreferrer"
+              class="button button--primary">Demo</a>
+            <a href="https://github.com/Robertoloji/portfolio" target="_blank" rel="noopener noreferrer"
+              class="button button--ghost">Code</a>
           </div>
         </div>
       </article>
       <article class="card card--project">
         <div class="card__image-container">
-          <img src="assets/images/project2.png" alt="Landing page" class="card__image">
+          <img src="assets/images/project2.png" alt="Proyecto Aplicación del Tiempo" class="card__image" />
         </div>
         <div class="project">
           <div class="project__tags">
@@ -184,17 +190,74 @@
             <span class="project__tag">#CSS</span>
             <span class="project__tag">#JavaScript</span>
           </div>
-          <h2 class="cart__title" data-section="projects" data-value="second-project-title">Aplicación del Tiempo</h2>
-          <p class="card__text" data-section="projects" data-value="second-project-description">Permite a los usuarios
-            ver el tiempo en cualquier parte del mundo. Proporciona datos meteorológicos actuales. Muestra temperatura,
-            humedad y viento. Ayuda a planificar actividades y tomar decisiones en condiciones meteorológicas adversas.
+          <h2 class="card__title" data-section="projects" data-value="second-project-title">Aplicación del Tiempo</h2>
+          <p class="card__text" data-section="projects" data-value="second-project-description">
+            Permite a los usuarios ver el tiempo en cualquier parte del mundo. Proporciona datos meteorológicos
+            actuales. Muestra temperatura, humedad y viento. Ayuda a planificar actividades y tomar decisiones en
+            condiciones meteorológicas adversas.
           </p>
           <div class="buttons">
-            <a href="https://tiempo-ochre.vercel.app/" target="_blank"class="button button--primary">Demo</a>
-            <a href="https://github.com/Robertoloji/tiempo" target="_blank"class="button button--ghost">Code</a>
+            <a href="https://tiempo-ochre.vercel.app/" target="_blank" rel="noopener noreferrer"
+              class="button button--primary">Demo</a>
+            <a href="https://github.com/Robertoloji/tiempo" target="_blank" rel="noopener noreferrer"
+              class="button button--ghost">Code</a>
           </div>
         </div>
       </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/scraping_amazon.png" alt="Proyecto Scraping Amazon" class="card__image" />
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#Python</span>
+            <span class="project__tag">#Selenium</span>
+            <span class="project__tag">#Streamlit</span>
+            <span class="project__tag">#Excel</span>
+          </div>
+          <h2 class="card__title">Scraping Amazon</h2>
+          <p class="card__text" data-section="projects" data-value="second-project-description">
+            Scraper que extrae información de productos desde Amazon España utilizando Selenium y Streamlit. Permite
+            buscar productos, extraer datos como título, precio e imagen, y guardar los resultados en un archivo Excel.
+          </p>
+          <br>
+          <br>
+          <br>
+          <div class="buttons">
+            <a href="https://github.com/Robertoloji/Scraping_Amazon" target="_blank" rel="noopener noreferrer"
+              class="button button--ghost">Código</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/proyecto_venta_ropa.png" alt="Venta de Ropa UNIVERSAE" class="card__image" />
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#PHP</span>
+            <span class="project__tag">#MySQL</span>
+            <span class="project__tag">#MVC</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+          </div>
+          <h2 class="card__title">Venta de Ropa</h2>
+          <p class="card__text" data-section="projects" data-value="second-project-description">
+            Aplicación web desarrollada con PHP, MySQL, CSS y JavaScript siguiendo el patrón MVC. Permite gestionar
+            productos, usuarios y pedidos, ofreciendo una experiencia completa de compra en línea.
+          </p>
+          <br>
+          <br>
+          <br>
+          <div class="buttons">
+            <a href="https://github.com/Robertoloji/Proyecto-de-Desarrollo-de-Aplicaciones-Web-Venta-de-ropa"
+              target="_blank" rel="noopener noreferrer" class="button button--ghost">Código</a>
+          </div>
+        </div>
+      </article>
+
+
     </section>
   </main>
   <script src="js/scripts.js"></script>
